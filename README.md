@@ -1,5 +1,7 @@
-A simple and secure voting system with Bitcoin
-==============
+[English](#Simple-and-secure-voting-system-with-Bitcoin)
+[Türkçe](#Bitcoin-ile-güvenli-ve-basit-bir-oy-sistemi)
+
+# A simple and secure voting system with Bitcoin
 
 A schema designed to utilize Bitcoin cryptocurrency for secure and simple electronic voting. In the heart of the schema lies the Blockchain, so all the processes of the system are open to public audition.
 
