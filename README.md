@@ -1,5 +1,5 @@
-[English](#Simple-and-secure-voting-system-with-Bitcoin)
-[Türkçe](#Bitcoin-ile-güvenli-ve-basit-bir-oy-sistemi)
+[English](#simple-and-secure-voting-system-with-bitcoin)
+[Türkçe](#bitcoin-ile-g%C3%BCvenli-ve-basit-bir-oy-sistemi)
 
 # Simple and secure voting system with Bitcoin
 
