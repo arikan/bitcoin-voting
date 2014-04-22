@@ -1,7 +1,7 @@
 [English](#Simple-and-secure-voting-system-with-Bitcoin)
 [Türkçe](#Bitcoin-ile-güvenli-ve-basit-bir-oy-sistemi)
 
-# A simple and secure voting system with Bitcoin
+# Simple and secure voting system with Bitcoin
 
 A schema designed to utilize Bitcoin cryptocurrency for secure and simple electronic voting. In the heart of the schema lies the Blockchain, so all the processes of the system are open to public audition.
 
@@ -47,9 +47,7 @@ Election result is obtained by counting all valid voting transactions from the r
 This basic schema can be applied today with the existing Bitcoin infrastructure. One can develop applications and interfaces for better user experience of this system. To contribute and improve the schema please send your comments and questions to the comments section of this page, or feel free to fork the repository and send pull requests.
 
 
-
-Bitcoin ile güvenli ve basit bir oy sistemi
-==============
+# Bitcoin ile güvenli ve basit bir oy sistemi
 
 Şifreli elektronik para birimi Bitcoin 2009'da ilk kullanıma girdiğinden beri internet üzerinde çalışan bir değer aktarım katmanı olarak hızla yayılmakta. Alışveriş ve borsalar dışında elektronik noterlik, elektronik sözleşme vb pek çok farklı alanda kullanılmakta.
 
