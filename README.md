@@ -6,7 +6,8 @@ A schema designed to utilize Bitcoin cryptocurrency for secure and simple electr
 
 #### Requirements:
 
-All actors of the election should be able to have a Bitcoin account and should be able to secure their voting computer.
+* All actors of the election should be able to have a Bitcoin account.
+* All actors of the election should be able to secure their voting computer.
 
 #### Actors:
 
@@ -60,7 +61,8 @@ Aşağıda göreceğiniz Bitcoin ile çalışan bir sistem şemasıdır. Herkese
 
 #### Gereksinimler:
 
-Seçime katılacak tüm taraflar birer Bitcoin hesabı açabilmelidir ve oy verecekleri bilgisayarın güvenliğini sağlayabilmelidir.
+* Seçime katılacak tüm taraflar birer Bitcoin hesabı açabilmelidir.
+* Seçime katılacak tüm taraflar oy verecekleri bilgisayarın güvenliğini sağlayabilmelidir.
 
 #### Aktörler:
 
