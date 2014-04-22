@@ -4,23 +4,23 @@
 
 A schema designed to utilize Bitcoin cryptocurrency for secure and simple electronic voting. In the heart of the schema lies the Blockchain, so all the processes of the system are open to public audition.
 
-###Requirements:
+#### Requirements:
 
 All actors of the election should be able to have a Bitcoin account and should be able to secure their voting computer.
 
-### Actors:
+#### Actors:
 
 Election Authority
 Candidate
 Voter
 
-### Terminology:
+#### Terminology:
 
 Block Chain: Bitcoin public transaction list
 0.00000001 Bitcoin: the smallest unit of Bitcoin
 BTC: Abbreviation for Bitcoin currency
 
-### Schema:
+#### Schema:
 
 0. Election Authority declaration:
 Election Authority publicly announces its Bitcoin address.
@@ -52,23 +52,23 @@ This basic schema can be applied today with the existing Bitcoin infrastructure.
 
 Aşağıda göreceğiniz Bitcoin ile çalışan bir sistem şemasıdır. Herkese açık ve anonim kayıt tutan Bitcoin işlem defteri Blockchain bu sistemin çekirdeğini oluşturmakta ve aşağıda belirtilen tüm aşamalar isteyen herkesin denetimine açıktır ve Bitcoin doğası gereği tüm işlemler şifrelidir.
 
-### Gereksinimler:
+#### Gereksinimler:
 
 Seçime katılacak tüm taraflar birer Bitcoin hesabı açabilmelidir ve oy verecekleri bilgisayarın güvenliğini sağlayabilmelidir.
 
-### Aktörler:
+#### Aktörler:
 
 Seçim Düzenleyicisi (Örn yüksek seçim kurulu)
 Aday (Örn Belediye Başkanı Adayı ya da Siyasi Parti)
 Seçmen (Örn oy verebilen vatandaş)
 
-### Terimler:
+#### Terimler:
 
 Blockchain: Herkese açık Bitcoin işlem defteri
 0.00000001 bitcoin: Mümkün olan en küçük Bitcoin birimi
 BTC: Bitcoin para birimi kısaltması
 
-### Şema:
+#### Şema:
 
 0. Seçim Düzenleyicisi'nin ilanı:
 Seçim Düzenleyicisi Bitcoin hesap numarasını ilan eder.
