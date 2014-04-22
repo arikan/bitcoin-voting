@@ -43,7 +43,9 @@ Election ends when all voting transactions are processed for each candidate in t
 6. Election result:
 Election result is obtained by counting all valid voting transactions from the registered voting addresses to the registered candidate addresses in the Blockchain. Any other transaction after the first 0.00000001 BTC transaction from the voter to the candidate is considered disqualified. The whole process from the registrations to the voting and counting the results is open to audition by anyone.
 
-This basic schema can be applied today with the existing Bitcoin infrastructure. One can develop applications and interfaces for better user experience of this system. To contribute and improve the schema please send your comments and questions to the comments section of this page, or feel free to fork the repository and send pull requests.
+#### Contribution
+
+This basic schema can be implemented today with the existing Bitcoin infrastructure. One can develop applications and interfaces for better user experience of this system. Please send your comments and questions on issues and feel free to fork the repository and send pull requests.
 
 
 ## Bitcoin ile güvenli ve basit bir oy sistemi
@@ -91,4 +93,6 @@ Tüm kayıtlı seçmenler oy verdiğinde seçim biter. Ayrıca seçimi bitirmek 
 6. Oy dökümü ve sayım:
 Herkese açık Bitcoin işlem defteri Blockchain'den tüm seçmenlerin listelenmiş adaylara gönderdiği tüm geçerli gönderimler sayılırak seçim sonucu belirlenir. Seçim süreci başlangıcındaki kayıt aşamasından listelenmeye, oy vermeye, ve sonuçların sayılmasına kadar tümüyle Bitcoin Blockhain'de herkesin denetimine açık olarak kayıt altındadır.
 
-Bu temel sistem mevcut Bitcoin altyapısı ile bugün uygulamaya koyulabilir. Daha kolay kullanımlar için seçime özel uygulamalar ve arayüzler geliştirilebilir. Sistemle ilgili gördüğünüz açıklar ya da iyileştirmeler için lütfen önerilerinizi ve eleştirilerinizi yorumlara gönderiniz. Ayrıca doğrudan repo'dan fork/pull ile değiştirebilir ve katkıda bulunabilirsiniz.
+#### Katılım
+
+Bu temel sistem mevcut Bitcoin altyapısı ile bugün uygulamaya koyulabilir. Daha kolay kullanımlar için seçime özel uygulamalar ve arayüzler geliştirilebilir. Sistemle ilgili gördüğünüz açıklar ve iyileştirmeler için lütfen önerilerinizi ve eleştirilerinizi gönderiniz. Ayrıca doğrudan repo'dan fork/pull ile değiştirebilir ve katkıda bulunabilirsiniz.
