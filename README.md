@@ -76,7 +76,7 @@ Seçime katılacak tüm taraflar birer Bitcoin hesabı açabilmelidir ve oy vere
 
 #### Şema:
 
-0. Seçim Düzenleyicisi'nin ilanı:
+0. **Seçim Düzenleyicisi'nin ilanı:**
 Seçim Düzenleyicisi Bitcoin hesap numarasını ilan eder.
 
 1. **Seçmen kaydı:**
