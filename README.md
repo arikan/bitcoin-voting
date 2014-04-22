@@ -10,15 +10,15 @@ All actors of the election should be able to have a Bitcoin account and should b
 
 #### Actors:
 
-Election Authority
-Candidate
-Voter
+* Election Authority
+* Candidate
+* Voter
 
 #### Terminology:
 
-Block Chain: Bitcoin public transaction list
-0.00000001 Bitcoin: the smallest unit of Bitcoin
-BTC: Abbreviation for Bitcoin currency
+* Block Chain: Bitcoin public transaction list
+* 0.00000001 Bitcoin: the smallest unit of Bitcoin
+* BTC: Abbreviation for Bitcoin currency
 
 #### Schema:
 
@@ -64,15 +64,15 @@ Seçime katılacak tüm taraflar birer Bitcoin hesabı açabilmelidir ve oy vere
 
 #### Aktörler:
 
-Seçim Düzenleyicisi (Örn yüksek seçim kurulu)
-Aday (Örn Belediye Başkanı Adayı ya da Siyasi Parti)
-Seçmen (Örn oy verebilen vatandaş)
+* Seçim Düzenleyicisi (Örn yüksek seçim kurulu)
+* Aday (Örn Belediye Başkanı Adayı ya da Siyasi Parti)
+* Seçmen (Örn oy verebilen vatandaş)
 
 #### Terimler:
 
-Blockchain: Herkese açık Bitcoin işlem defteri
-0.00000001 bitcoin: Mümkün olan en küçük Bitcoin birimi
-BTC: Bitcoin para birimi kısaltması
+* Blockchain: Herkese açık Bitcoin işlem defteri
+* 0.00000001 bitcoin: Mümkün olan en küçük Bitcoin birimi
+* BTC: Bitcoin para birimi kısaltması
 
 #### Şema:
 
