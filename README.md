@@ -47,6 +47,10 @@ Election result is obtained by counting all valid voting transactions from the r
 
 This basic schema can be implemented today with the existing Bitcoin infrastructure. One can develop applications and interfaces for better user experience of this system. Please send your comments and questions on issues and feel free to fork the repository and send pull requests.
 
+#### License
+
+[The MIT License (MIT)](https://github.com/arikan/bitcoin-voting/blob/master/LICENSE)
+
 
 ## Bitcoin ile güvenli ve basit bir oy sistemi
 
@@ -96,3 +100,7 @@ Herkese açık Bitcoin işlem defteri Blockchain'den tüm seçmenlerin listelenm
 #### Katılım
 
 Bu temel sistem mevcut Bitcoin altyapısı ile bugün uygulamaya koyulabilir. Daha kolay kullanımlar için seçime özel uygulamalar ve arayüzler geliştirilebilir. Sistemle ilgili gördüğünüz açıklar ve iyileştirmeler için lütfen önerilerinizi ve eleştirilerinizi gönderiniz. Ayrıca doğrudan repo'dan fork/pull ile değiştirebilir ve katkıda bulunabilirsiniz.
+
+#### Lisans
+
+[The MIT License (MIT)](https://github.com/arikan/bitcoin-voting/blob/master/LICENSE)
