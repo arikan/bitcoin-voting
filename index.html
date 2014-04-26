@@ -39,7 +39,6 @@
         </a>
         Simple and secure voting system with Bitcoin
       </h3>
-
       <p>
         A schema designed to utilize Bitcoin cryptocurrency for secure and simple electronic voting. In the heart of the schema lies the Blockchain, so all the processes of the system are open to public audition.
       </p>
@@ -102,15 +101,77 @@
         This basic schema can be implemented today with the existing Bitcoin infrastructure. One can develop applications and interfaces for better user experience of this system. Please send your comments and questions on issues and feel free to fork the repository and send pull requests.
       </p>
       <p>
-      <h4>License</h4>
-      <a href="https://github.com/arikan/bitcoin-voting/blob/master/LICENSE">
-        The MIT License (MIT)
-      </a>
+        <h4>License</h4>
+        <a href="https://github.com/arikan/bitcoin-voting/blob/master/LICENSE">
+          The MIT License (MIT)
+        </a>
+      </p>
+
+      <a name="tr"></a>
+
+      <h3>Bitcoin ile güvenli ve basit bir oy sistemi</h3>
+      <p>
+        Şifreli elektronik para birimi Bitcoin 2009'da ilk kullanıma girdiğinden beri internet üzerinde çalışan bir değer aktarım katmanı olarak hızla yayılmakta. Alışveriş ve borsalar dışında elektronik noterlik, elektronik sözleşme vb pek çok farklı alanda kullanılmakta.
+      </p>
+      <p>
+        Aşağıda göreceğiniz Bitcoin ile çalışan bir sistem şemasıdır. Herkese açık ve anonim kayıt tutan Bitcoin işlem defteri Blockchain bu sistemin çekirdeğini oluşturmakta ve aşağıda belirtilen tüm aşamalar isteyen herkesin denetimine açıktır ve Bitcoin doğası gereği tüm işlemler şifrelidir.
+      </p>
+      <p>
+        <h4>Gereksinimler:</h4>
+        <ul>
+          <li>Seçime katılacak tüm taraflar birer Bitcoin hesabı açabilmelidir.</li>
+          <li>Seçime katılacak tüm taraflar oy verecekleri bilgisayarın güvenliğini sağlayabilmelidir.</li>
+        </ul>
+      </p>
+      <p>
+        <h4>Aktörler:</h4>
+        <ul>
+          <li>Seçim Düzenleyicisi (Örn yüksek seçim kurulu)</li>
+          <li>Aday (Örn Belediye Başkanı Adayı ya da Siyasi Parti)</li>
+          <li>Seçmen (Örn oy verebilen vatandaş)</li>
+        </ul>
+      </p>
+      <p>
+        <h4>Terimler:</h4>
+        <ul>
+          <li>Blockchain: Herkese açık Bitcoin işlem defteri</li>
+          <li>0.00000001 bitcoin: Mümkün olan en küçük Bitcoin birimi</li>
+          <li>BTC: Bitcoin para birimi kısaltması</li>
+        </ul>
+      </p>
+      <p>
+        <h4>Şema:</h4>
+
+        <strong>0. Seçim Düzenleyicisi'nin ilanı:</strong>
+        Seçim Düzenleyicisi Bitcoin hesap numarasını ilan eder.
+
+        <strong>1. Seçmen kaydı:</strong>
+        Seçim Düzenleyicisi kimliğini gösterip Bitcoin hesabını ibraz eden her seçmene 0.00000001 BTC gönderir. Böylece seçmenlerin Bitcoin adresleri Blockchain'de listelenmiş olur. Seçmenlerin anonim oy verme hakkını kullanabilmesi için Seçim Düzenleyicisi kayıt aşamasında kaydın bir defa yapıldığını kontrol etmek üzere sadece kimlik bilgisini tutar, Bitcoin hesap numarası kayıt edilmemelidir.
+
+        <strong>2. Aday kaydı:</strong>
+        Seçim Düzenleyicisi kimliğini ve Bitcoin hesabını ibraz eden her adayın hesabına 0.00000002 BTC gönderir. Böylece adaylar Blockchain'de listelenmiş olur. Seçmen kaydının tersine Seçim Düzenleyicisi Adayları kaydederken kimlik bilgisiyle Bitcoin hesabını eşleştirerek tutmak ve eşleştirmeyi herkese açıklamak zorundadır. Seçim Düzenleyicisi'nin Bitcoin hesabından gönderilen 0.00000002 bitcoini alanlar aday olarak listelenmiş olur. Adaylar Bitcoin hesaplarını ilan etmekle yükümlüdür.
+
+        <strong>3. Seçimi başlatma:</strong>
+        Seçim Düzenleyicisi listelenmiş tüm seçmenlere tekrar 0.00000001 BTC gönderdiğinde seçim başlar.
+
+        <strong>4. Oy verme:</strong>
+        Seçmenler listelenen adaylardan birine 0.00000001 BTC gönderdiklerinde oy vermiş olurlar. Bir seçmenin hesabından listelenen Adaylardan birinin hesabına sadece bir defa gönderim yapabilir, ilk gönderim sonrasında yapılacak herhangi bir gönderim geçersiz sayılır.
+
+        <strong>5. Seçimi bitirme:</strong>
+        Tüm kayıtlı seçmenler oy verdiğinde seçim biter. Ayrıca seçimi bitirmek için zaman sınırı da koyulabilir.
+
+        <strong>6. Oy dökümü ve sayım:</strong>
+        Herkese açık Bitcoin işlem defteri Blockchain'den tüm seçmenlerin listelenmiş adaylara gönderdiği tüm geçerli gönderimler sayılırak seçim sonucu belirlenir. Seçim süreci başlangıcındaki kayıt aşamasından listelenmeye, oy vermeye, ve sonuçların sayılmasına kadar tümüyle Bitcoin Blockhain'de herkesin denetimine açık olarak kayıt altındadır.
+      </p>
+      <p>
+        <h4>Katılım</h4>
+
+        Bu temel sistem mevcut Bitcoin altyapısı ile bugün uygulamaya koyulabilir. Daha kolay kullanımlar için seçime özel uygulamalar ve arayüzler geliştirilebilir. Sistemle ilgili gördüğünüz açıklar ve iyileştirmeler için lütfen önerilerinizi ve eleştirilerinizi gönderiniz. Ayrıca doğrudan repo'dan fork/pull ile değiştirebilir ve katkıda bulunabilirsiniz.
+      </p>
+      <p>
+        <h4>Lisans</h4>
       </p>
     </section>
-
-    <a name="tr"></a>
-
   </div>
 
   <!-- FOOTER  -->
