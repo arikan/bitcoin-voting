@@ -129,7 +129,7 @@ Bu temel sistem mevcut Bitcoin altyapısı ile bugün uygulamaya koyulabilir. Da
 
 ## Sistem pengundian selamat dan mudah dengan Bitcoin
 
-Kaedah kerja menggunakan matawang kripto Bitcoin sebagai sistem pengundian yang selamat dan mudah. Di dalam kaedah ini juga menggunakan algoritma Blockchain agar semua proses adalah terbuka kepada semua Rakyat.
+Kaedah kerja menggunakan matawang kripto Bitcoin sebagai sistem pengundian yang selamat dan mudah. Di dalam kaedah ini juga menggunakan algoritma [Blockchain](http://en.wikipedia.org/wiki/Blockchain) agar semua proses adalah terbuka kepada semua Rakyat.
 
 #### Keperluan:
 
@@ -175,9 +175,12 @@ Kaedah kerja menggunakan matawang kripto Bitcoin sebagai sistem pengundian yang 
 5. **Pengakhiran proses pengundian:**
  - Proses pengundian akan berakhir apabila semua transaksi telah diproses dan disahkan oleh Pihak Berkuasa Pengundian.
  - Had masa juga boleh di gunakan dalam proses ini.
+ - Jika had masa ditetapkan, Pihak Berkuasa Pengundian harus mengumumkan waktu mula dan akhir pengundian tersebut.
+ - Jika pengundian ditetapkan had masa, apa-apa undi sebelum dan selepas had masa di kira tidak sah.
 
 6. **Election result:**
  - Keputusan pengundian diputuskan dengan mengira semua transaksi yang sah daripada alamat pengundian menggunakan Blockchain API.
+ - Apa-apa transaksi selepas 1 Satoshi yang disalurkan adalah dikira tidak sah.
  - Semua proses-proses di atas daripada proses pendaftaran adalah terbuka kepada semua Rakyat.
 
 #### Todo
