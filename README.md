@@ -130,43 +130,47 @@ Kaedah kerja menggunakan matawang kripto Bitcoin sebagai sistem pengundian yang 
 
 #### Skema:
 
+0. **Deklarasi Pihak Berkuasa Pengundian:**
+ - Pihak Berkuasa Pengundian mengumumkan alamat Bitcoin secara terbuka.
+
 1. **Pendaftaran pengundi:**
  - Pengundi menyediakan ID dan alamat Bitcoin yang sah kepada Pihak Berkuasa Pengundian, seterusnya menyalurkan 1 Satoshi kepada pengundi tersebut.
  - Semua alamat Bitcoin calon akan dipaparkan secara terbuka di dalam Blockchain.
  - Untuk mengekalkan privasi pengundi, Pihak Berkuasa Pengundian menyimpan ID untuk mengelakkan pendaftaran berganda, tetapi tidak menyimpan rekod yang berkaitan dengan ID dan alamat Bitcoin yang diberikan.
 
 2. **Pendaftaran calon:**
-- Calon menyediakan ID dan alamat Bitcoin yang sah kepada Pihak Berkuasa Pengundian, seterusnya menyalurkan 2 Satoshi kepada calon tersebut.
-- Semua alamat Bitcoin calon akan dipaparkan secara terbuka di dalam Blockchain.
-- Dalam hal calon, Pihak Berkuasa Pengundian akan menyimpan rekod berkaitan ID dan alamat Bitcoin calon, dan berkuasa untuk memaparkan kedua-duanya secara terbuka.
-- Calon calon wajib mengumumkan alamat Bitcoin mereka.
+ - Calon menyediakan ID dan alamat Bitcoin yang sah kepada Pihak Berkuasa Pengundian, seterusnya menyalurkan 2 Satoshi kepada calon tersebut.
+ - Semua alamat Bitcoin calon akan dipaparkan secara terbuka di dalam Blockchain.
+ - Dalam hal calon, Pihak Berkuasa Pengundian akan menyimpan rekod berkaitan ID dan alamat Bitcoin calon, dan berkuasa untuk memaparkan kedua-duanya secara terbuka.
+ - Calon calon wajib mengumumkan alamat Bitcoin mereka.
 
 3. **Pilihan raya:**
-- Pilihan raya bermula apabila Pihak Berkuasa Pengundian menyalurkan 1 Satoshi kepada semua alamat Bitcoin pengundi.
-- Alamat Bitcoin pengundi boleh disemak di Blockchain.
+ - Pilihan raya bermula apabila Pihak Berkuasa Pengundian menyalurkan 1 Satoshi kepada semua alamat Bitcoin pengundi.
+ - Alamat Bitcoin pengundi boleh disemak di Blockchain.
 
 4. **Pengundian:**
-- Pengundi akan melakukan pemindahan/transaksi 1 Satoshi kepada alamat Bitcoin calon yang dipilih.
-- Proses transaksi Satoshi boleh disemak di Blockchain.
+ - Pengundi akan melakukan pemindahan/transaksi 1 Satoshi kepada alamat Bitcoin calon yang dipilih.
+ - Proses transaksi Satoshi boleh disemak di Blockchain.
 
 5. **Pengakhiran proses pengundian:**
-- Proses pengundian akan berakhir apabila semua transaksi telah diproses dan disahkan oleh Pihak Berkuasa Pengundian.
-- Had masa juga boleh di gunakan dalam proses ini.
+ - Proses pengundian akan berakhir apabila semua transaksi telah diproses dan disahkan oleh Pihak Berkuasa Pengundian.
+ - Had masa juga boleh di gunakan dalam proses ini.
 
 6. **Election result:**
-- Keputusan pengundian diputuskan dengan mengira semua transaksi yang sah daripada alamat pengundian menggunakan Blockchain API.
-- Semua proses-proses di atas daripada proses pendaftaran adalah terbuka kepada semua Rakyat.
+ - Keputusan pengundian diputuskan dengan mengira semua transaksi yang sah daripada alamat pengundian menggunakan Blockchain API.
+ - Semua proses-proses di atas daripada proses pendaftaran adalah terbuka kepada semua Rakyat.
 
 #### Todo
-- Ikut proses sebenar PRU Malaysia
-- Cari isu berbangkit dalam kaedah ini
+
+ - Ikut proses sebenar PRU Malaysia
+ - Cari isu berbangkit dalam kaedah ini
 
 #### Sumbangan:
 
-- Kaedah asas ini boleh dilaksanakan menggunakan infrastruktur Bitcoin yang sedia ada.
-- Sumbangan kepada teknologi boleh dilakukan dengan membina sebuah aplikasi sistem antara muka untuk pengalaman pengguna yang baik.
-- Anda boleh menyumbang dengan memberi pendapat dan soalan berkaitan isu-isu berbangkit.
-- Adalah digalakkan untuk fork repositori dan hantar pull request.
+ - Kaedah asas ini boleh dilaksanakan menggunakan infrastruktur Bitcoin yang sedia ada.
+ - Sumbangan kepada teknologi boleh dilakukan dengan membina sebuah aplikasi sistem antara muka untuk pengalaman pengguna yang baik.
+ - Anda boleh menyumbang dengan memberi pendapat dan soalan berkaitan isu-isu berbangkit.
+ - Adalah digalakkan untuk fork repositori dan hantar pull request.
 
 
 #### Lesen
