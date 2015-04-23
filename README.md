@@ -1,5 +1,39 @@
 [English](#simple-and-secure-voting-system-with-bitcoin) ∙ [Türkçe](#bitcoin-ile-g%C3%BCvenli-ve-basit-bir-oy-sistemi)
 
+## Sistem pengundian selamat dan mudah dengan Bitcoin
+
+#### Keperluan:
+
+#### Pelakon:
+
+#### Terminologi:
+
+#### Skema:
+
+1. **Voter registration:**
+Voters show a valid ID and provide their Bitcoin address to Election Authority, who sends them 0.00000001 BTC in return. All voter Bitcoin addresses are publicly listed in the Blockchain. To carry out citizens' right to vote anonymously, the Election Authority keeps the IDs to prevent double registration but does not keep a record of association between the IDs and the provided Bitcoin addresses.
+
+2. **Candidate registration:**
+Candidates provide a valid ID and their Bitcoin address to Election Authority, who sends them 0.00000002 BTC in return. All candidate Bitcoin addresses are publicly listed in the Blockchain. As opposed to voter registration, Election Authority keeps and publicly announces a record of association between each candidate ID and their provided Bitcoin address. Candidates are obliged to announce their Bitcoin addresses.
+
+3. **Starting the election:**
+Election starts when Election Authority sends 0.00000001 BTC to all the voters' Bitcoin addresses publicly listed in the BLockchain.
+
+4. **Voting:**
+Voters send 0.00000001 BTC to their preferred candidate's Bitcoin addresses publicly listed in the Blockchain.
+
+5. **Ending the election:**
+Election ends when all voting transactions are processed for each candidate in the Blockchain. A time limit can be also put in place.
+
+6. **Election result:**
+Election result is obtained by counting all valid voting transactions from the registered voting addresses to the registered candidate addresses in the Blockchain. Any other transaction after the first 0.00000001 BTC transaction from the voter to the candidate is considered disqualified. The whole process from the registrations to the voting and counting the results is open to audition by anyone.
+
+#### Sumbangan:
+
+#### Lesen
+
+[The MIT License (MIT)](https://github.com/arikan/bitcoin-voting/blob/master/LICENSE)
+
 ## Simple and secure voting system with Bitcoin
 
 A schema designed to utilize Bitcoin cryptocurrency for secure and simple electronic voting. In the heart of the schema lies the Blockchain, so all the processes of the system are open to public audition.
