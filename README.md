@@ -3,7 +3,7 @@
 
 ## Simple and secure voting system with Bitcoin
 
-A schema designed to utilize Bitcoin cryptocurrency for secure and simple electronic voting. In the heart of the schema lies the Blockchain, so all the processes of the system are open to public audition.
+A schema designed to utilize Bitcoin cryptocurrency for secure and simple electronic voting. In the heart of the schema lies the [Blockchain](https://en.wikipedia.org/wiki/Bitcoin#Block_chain), so all the processes of the system are open to public audition.
 
 #### Requirements:
 
@@ -34,12 +34,12 @@ A schema designed to utilize Bitcoin cryptocurrency for secure and simple electr
 
 2. **Candidate registration:**
  - Candidates provide a valid ID and their Bitcoin address to Election Authority, who sends them 0.00000002 BTC in return.
- - All candidate Bitcoin addresses are publicly listed in the Blockchain. 
- - As opposed to voter registration, Election Authority keeps and publicly announces a record of association between each candidate ID and their provided Bitcoin address. 
+ - All Candidate Bitcoin addresses are publicly listed in the Blockchain. 
+ - As opposed to Voter registration, Election Authority stores and publicly announces a record of association between each candidate ID and their provided Bitcoin address. 
  - Candidates are obliged to announce their Bitcoin addresses.
 
 3. **Starting the election:**
- - Election starts when Election Authority sends 0.00000001 BTC to all the voters' Bitcoin addresses publicly listed in the Blockchain.
+ - Election starts when Election Authority sends 0.00000001 BTC to all the Voters' Bitcoin addresses publicly listed in the Blockchain.
 
 4. **Voting:**
  - Voters send 0.00000001 BTC to their preferred candidate's Bitcoin addresses publicly listed in the Blockchain.
