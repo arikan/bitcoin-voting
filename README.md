@@ -1,38 +1,4 @@
-[English](#simple-and-secure-voting-system-with-bitcoin) ∙ [Türkçe](#bitcoin-ile-g%C3%BCvenli-ve-basit-bir-oy-sistemi)
-
-## Sistem pengundian selamat dan mudah dengan Bitcoin
-
-#### Keperluan:
-
-#### Pelakon:
-
-#### Terminologi:
-
-#### Skema:
-
-1. **Voter registration:**
-Voters show a valid ID and provide their Bitcoin address to Election Authority, who sends them 0.00000001 BTC in return. All voter Bitcoin addresses are publicly listed in the Blockchain. To carry out citizens' right to vote anonymously, the Election Authority keeps the IDs to prevent double registration but does not keep a record of association between the IDs and the provided Bitcoin addresses.
-
-2. **Candidate registration:**
-Candidates provide a valid ID and their Bitcoin address to Election Authority, who sends them 0.00000002 BTC in return. All candidate Bitcoin addresses are publicly listed in the Blockchain. As opposed to voter registration, Election Authority keeps and publicly announces a record of association between each candidate ID and their provided Bitcoin address. Candidates are obliged to announce their Bitcoin addresses.
-
-3. **Starting the election:**
-Election starts when Election Authority sends 0.00000001 BTC to all the voters' Bitcoin addresses publicly listed in the BLockchain.
-
-4. **Voting:**
-Voters send 0.00000001 BTC to their preferred candidate's Bitcoin addresses publicly listed in the Blockchain.
-
-5. **Ending the election:**
-Election ends when all voting transactions are processed for each candidate in the Blockchain. A time limit can be also put in place.
-
-6. **Election result:**
-Election result is obtained by counting all valid voting transactions from the registered voting addresses to the registered candidate addresses in the Blockchain. Any other transaction after the first 0.00000001 BTC transaction from the voter to the candidate is considered disqualified. The whole process from the registrations to the voting and counting the results is open to audition by anyone.
-
-#### Sumbangan:
-
-#### Lesen
-
-[The MIT License (MIT)](https://github.com/arikan/bitcoin-voting/blob/master/LICENSE)
+[English](#simple-and-secure-voting-system-with-bitcoin) ∙ [Türkçe](#bitcoin-ile-g%C3%BCvenli-ve-basit-bir-oy-sistemi) ∙ [Bahasa Malaysia](#sistem-pengundian-selamat-dan-mudah-dengan-bitcoin)
 
 ## Simple and secure voting system with Bitcoin
 
@@ -138,5 +104,71 @@ Herkese açık Bitcoin işlem defteri Blockchain'den tüm seçmenlerin listelenm
 Bu temel sistem mevcut Bitcoin altyapısı ile bugün uygulamaya koyulabilir. Daha kolay kullanımlar için seçime özel uygulamalar ve arayüzler geliştirilebilir. Sistemle ilgili gördüğünüz açıklar ve iyileştirmeler için lütfen önerilerinizi ve eleştirilerinizi gönderiniz. Ayrıca doğrudan repo'dan fork/pull ile değiştirebilir ve katkıda bulunabilirsiniz.
 
 #### Lisans
+
+[The MIT License (MIT)](https://github.com/arikan/bitcoin-voting/blob/master/LICENSE)
+
+## Sistem pengundian selamat dan mudah dengan Bitcoin
+
+Kaedah kerja menggunakan matawang kripto Bitcoin sebagai sistem pengundian yang selamat dan mudah. Di dalam kaedah ini juga menggunakan algoritma Blockchain agar semua proses adalah terbuka kepada semua Rakyat.
+
+#### Keperluan:
+
+* Kesemua aktor pengundian harus mempunyai satu akaun Bitcoin (wallet).
+* Kesemua aktor pengundian harus menggunakan komputer untuk mengundi.
+
+#### Aktor:
+
+* Pihak Berkuasa Pengundian (SPR)
+* Calon
+* Pengundi (Rakyat)
+
+#### Terminologi:
+
+* Block Chain: Senarai awam transaksi Bitcoin
+* 1 Satoshi (0.00000001 Bitcoin): Unit terkecil matawang Bitcoin
+* BTC: Singkatan matawang Bitcoin
+
+#### Skema:
+
+1. **Pendaftaran pengundi:**
+ - Pengundi menyediakan ID dan alamat Bitcoin yang sah kepada Pihak Berkuasa Pengundian, seterusnya menyalurkan 1 Satoshi kepada pengundi tersebut.
+ - Semua alamat Bitcoin calon akan dipaparkan secara terbuka di dalam Blockchain.
+ - Untuk mengekalkan privasi pengundi, Pihak Berkuasa Pengundian menyimpan ID untuk mengelakkan pendaftaran berganda, tetapi tidak menyimpan rekod yang berkaitan dengan ID dan alamat Bitcoin yang diberikan.
+
+2. **Pendaftaran calon:**
+- Calon menyediakan ID dan alamat Bitcoin yang sah kepada Pihak Berkuasa Pengundian, seterusnya menyalurkan 2 Satoshi kepada calon tersebut.
+- Semua alamat Bitcoin calon akan dipaparkan secara terbuka di dalam Blockchain.
+- Dalam hal calon, Pihak Berkuasa Pengundian akan menyimpan rekod berkaitan ID dan alamat Bitcoin calon, dan berkuasa untuk memaparkan kedua-duanya secara terbuka.
+- Calon calon wajib mengumumkan alamat Bitcoin mereka.
+
+3. **Pilihan raya:**
+- Pilihan raya bermula apabila Pihak Berkuasa Pengundian menyalurkan 1 Satoshi kepada semua alamat Bitcoin pengundi.
+- Alamat Bitcoin pengundi boleh disemak di Blockchain.
+
+4. **Pengundian:**
+- Pengundi akan melakukan pemindahan/transaksi 1 Satoshi kepada alamat Bitcoin calon yang dipilih.
+- Proses transaksi Satoshi boleh disemak di Blockchain.
+
+5. **Pengakhiran proses pengundian:**
+- Proses pengundian akan berakhir apabila semua transaksi telah diproses dan disahkan oleh Pihak Berkuasa Pengundian.
+- Had masa juga boleh di gunakan dalam proses ini.
+
+6. **Election result:**
+- Keputusan pengundian diputuskan dengan mengira semua transaksi yang sah daripada alamat pengundian menggunakan Blockchain API.
+- Semua proses-proses di atas daripada proses pendaftaran adalah terbuka kepada semua Rakyat.
+
+#### Todo
+- Ikut proses sebenar PRU Malaysia
+- Cari isu berbangkit dalam kaedah ini
+
+#### Sumbangan:
+
+- Kaedah asas ini boleh dilaksanakan menggunakan infrastruktur Bitcoin yang sedia ada.
+- Sumbangan kepada teknologi boleh dilakukan dengan membina sebuah aplikasi sistem antara muka untuk pengalaman pengguna yang baik.
+- Anda boleh menyumbang dengan memberi pendapat dan soalan berkaitan isu-isu berbangkit.
+- Adalah digalakkan untuk fork repositori dan hantar pull request.
+
+
+#### Lesen
 
 [The MIT License (MIT)](https://github.com/arikan/bitcoin-voting/blob/master/LICENSE)
