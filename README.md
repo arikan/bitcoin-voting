@@ -46,11 +46,12 @@ A schema designed to utilize Bitcoin cryptocurrency for secure and simple electr
 
 5. **Ending the election:**
  - Election ends when all voting transactions are processed for each candidate in the Blockchain. 
- - A time limit can be also put in place.
+ - If time limit is put in place, Election Authority must declare the election start and end date and time. 
+ - If this is a time limited election, any vote before the start datetime and after end datetime is considered invalid.
 
 6. **Election result:**
  - Election result is obtained by counting all valid voting transactions from the registered voting addresses to the registered candidate addresses in the Blockchain. 
- - Any other transaction after the first 0.00000001 BTC transaction from the voter to the candidate is considered disqualified. 
+ - Any other transaction after the first 0.00000001 BTC transaction from the Voter to the Candidate is considered disqualified. 
  - The whole process from the registrations to the voting and counting the results is open to audition by anyone.
 
 #### Contribution
@@ -92,7 +93,7 @@ Aşağıda göreceğiniz Bitcoin ile çalışan bir sistem şemasıdır. Herkese
 
 1. **Seçmen kaydı:**
  - Seçim Düzenleyicisi kimliğini gösterip Bitcoin hesabını ibraz eden her seçmene 0.00000001 BTC gönderir. 
- - Böylece seçmenlerin Bitcoin adresleri Blockchain'de listelenmiş olur. 
+ - Böylece, tüm seçmenlerin Bitcoin adresleri Blockchain'de listelenmiş olur. 
  - Seçmenlerin anonim oy verme hakkını kullanabilmesi için Seçim Düzenleyicisi kayıt aşamasında kaydın bir defa yapıldığını kontrol etmek üzere sadece kimlik bilgisini tutar, Bitcoin hesap numarası kayıt edilmemelidir.
 
 2. **Aday kaydı:**
@@ -111,7 +112,8 @@ Aşağıda göreceğiniz Bitcoin ile çalışan bir sistem şemasıdır. Herkese
 
 5. **Seçimi bitirme:**
  - Tüm kayıtlı seçmenler oy verdiğinde seçim biter.
- - Ayrıca seçimi bitirmek için zaman sınırı da koyulabilir.
+ - Seçimi bitirmek için zaman sınırı koyulursa, Seçim Düzenleyicisi başlangıç ve bitiş zamanını seçim başında ilan etmek zorundadır.
+ - Zaman sınırılı seçimde, başlangıç zamanında önce ve bitiş zamanından sonra verilen oylar geçersizdir.
 
 6. **Oy dökümü ve sayım:**
  - Herkese açık Bitcoin işlem defteri Blockchain'den tüm seçmenlerin listelenmiş adaylara gönderdiği tüm geçerli gönderimler sayılırak seçim sonucu belirlenir. 
