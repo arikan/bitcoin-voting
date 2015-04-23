@@ -1,4 +1,4 @@
-[English](#simple-and-secure-voting-system-with-bitcoin) ∙ [Türkçe](#bitcoin-ile-g%C3%BCvenli-ve-basit-bir-oy-sistemi)
+[English](#simple-and-secure-voting-system-with-bitcoin) ∙ [Türkçe](#bitcoin-ile-g%C3%BCvenli-ve-basit-bir-oy-sistemi) ∙ [Bahasa Malaysia](#sistem-pengundian-selamat-dan-mudah-dengan-bitcoin)
 
 ## Simple and secure voting system with Bitcoin
 
@@ -104,5 +104,75 @@ Herkese açık Bitcoin işlem defteri Blockchain'den tüm seçmenlerin listelenm
 Bu temel sistem mevcut Bitcoin altyapısı ile bugün uygulamaya koyulabilir. Daha kolay kullanımlar için seçime özel uygulamalar ve arayüzler geliştirilebilir. Sistemle ilgili gördüğünüz açıklar ve iyileştirmeler için lütfen önerilerinizi ve eleştirilerinizi gönderiniz. Ayrıca doğrudan repo'dan fork/pull ile değiştirebilir ve katkıda bulunabilirsiniz.
 
 #### Lisans
+
+[The MIT License (MIT)](https://github.com/arikan/bitcoin-voting/blob/master/LICENSE)
+
+## Sistem pengundian selamat dan mudah dengan Bitcoin
+
+Kaedah kerja menggunakan matawang kripto Bitcoin sebagai sistem pengundian yang selamat dan mudah. Di dalam kaedah ini juga menggunakan algoritma Blockchain agar semua proses adalah terbuka kepada semua Rakyat.
+
+#### Keperluan:
+
+* Kesemua aktor pengundian harus mempunyai satu akaun Bitcoin (wallet).
+* Kesemua aktor pengundian harus menggunakan komputer untuk mengundi.
+
+#### Aktor:
+
+* Pihak Berkuasa Pengundian (SPR)
+* Calon
+* Pengundi (Rakyat)
+
+#### Terminologi:
+
+* Block Chain: Senarai awam transaksi Bitcoin
+* 1 Satoshi (0.00000001 Bitcoin): Unit terkecil matawang Bitcoin
+* BTC: Singkatan matawang Bitcoin
+
+#### Skema:
+
+0. **Deklarasi Pihak Berkuasa Pengundian:**
+ - Pihak Berkuasa Pengundian mengumumkan alamat Bitcoin secara terbuka.
+
+1. **Pendaftaran pengundi:**
+ - Pengundi menyediakan ID dan alamat Bitcoin yang sah kepada Pihak Berkuasa Pengundian, seterusnya menyalurkan 1 Satoshi kepada pengundi tersebut.
+ - Semua alamat Bitcoin calon akan dipaparkan secara terbuka di dalam Blockchain.
+ - Untuk mengekalkan privasi pengundi, Pihak Berkuasa Pengundian menyimpan ID untuk mengelakkan pendaftaran berganda, tetapi tidak menyimpan rekod yang berkaitan dengan ID dan alamat Bitcoin yang diberikan.
+
+2. **Pendaftaran calon:**
+ - Calon menyediakan ID dan alamat Bitcoin yang sah kepada Pihak Berkuasa Pengundian, seterusnya menyalurkan 2 Satoshi kepada calon tersebut.
+ - Semua alamat Bitcoin calon akan dipaparkan secara terbuka di dalam Blockchain.
+ - Dalam hal calon, Pihak Berkuasa Pengundian akan menyimpan rekod berkaitan ID dan alamat Bitcoin calon, dan berkuasa untuk memaparkan kedua-duanya secara terbuka.
+ - Calon calon wajib mengumumkan alamat Bitcoin mereka.
+
+3. **Pilihan raya:**
+ - Pilihan raya bermula apabila Pihak Berkuasa Pengundian menyalurkan 1 Satoshi kepada semua alamat Bitcoin pengundi.
+ - Alamat Bitcoin pengundi boleh disemak di Blockchain.
+
+4. **Pengundian:**
+ - Pengundi akan melakukan pemindahan/transaksi 1 Satoshi kepada alamat Bitcoin calon yang dipilih.
+ - Proses transaksi Satoshi boleh disemak di Blockchain.
+
+5. **Pengakhiran proses pengundian:**
+ - Proses pengundian akan berakhir apabila semua transaksi telah diproses dan disahkan oleh Pihak Berkuasa Pengundian.
+ - Had masa juga boleh di gunakan dalam proses ini.
+
+6. **Election result:**
+ - Keputusan pengundian diputuskan dengan mengira semua transaksi yang sah daripada alamat pengundian menggunakan Blockchain API.
+ - Semua proses-proses di atas daripada proses pendaftaran adalah terbuka kepada semua Rakyat.
+
+#### Todo
+
+ - Ikut proses sebenar PRU Malaysia
+ - Cari isu berbangkit dalam kaedah ini
+
+#### Sumbangan:
+
+ - Kaedah asas ini boleh dilaksanakan menggunakan infrastruktur Bitcoin yang sedia ada.
+ - Sumbangan kepada teknologi boleh dilakukan dengan membina sebuah aplikasi sistem antara muka untuk pengalaman pengguna yang baik.
+ - Anda boleh menyumbang dengan memberi pendapat dan soalan berkaitan isu-isu berbangkit.
+ - Adalah digalakkan untuk fork repositori dan hantar pull request.
+
+
+#### Lesen
 
 [The MIT License (MIT)](https://github.com/arikan/bitcoin-voting/blob/master/LICENSE)
